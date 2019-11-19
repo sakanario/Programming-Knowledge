@@ -1,0 +1,21 @@
+
+SHADOW
+text-shadow: 0px 5px 5px #000000;
+text-shadow: kiri-kanan atas-bawah blur #000000;
+
+text-decoration: underline;
+
+TITLE DI TENGAH
+<h1 align="center"  class="display-5 bawah-1"><b>Main Skill</b></h1>
+
+.mid{
+  /* width: 100%;
+  height: 600px; */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  /* align-items: center rata atas bawah */
+  justify-content:   center;
+  /* justify-content: center; rata kanan kiri */
+
+}

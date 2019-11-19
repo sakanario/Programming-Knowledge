@@ -1,0 +1,2 @@
+npm init : buat ngebuat file json untuk nyimpen dependencies apa aja yg kita pake agar kalo nginstall jadi ga perlu
+nginstall satu-satu

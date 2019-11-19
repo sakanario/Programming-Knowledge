@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(204, 204, 204, 0.404);
+}
+
+nav{
+    background-color: black;
+    padding: 3px 0px;
+    overflow: auto;
+}
+
+.menu {
+    color: white;
+    width: 300px;
+    float: left;
+}
+
+.menu ul{
+    padding-left: 30px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-right:20px;
+}
+
+.searchBox {
+    float: right;
+    height: 54px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.banner {
+    height: 300px;
+    position: relative;
+    /* background-color: gray; */
+    background-image: url(aset/bird.jpg);
+    background-size: cover;
+    background-position-y:-150px;
+    /* background-attachment: fixed; */
+}
+
+.nick {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.name {
+    font-size: 45px;
+}
+
+.container {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: fit-content;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.bioCard {
+    border: 4px solid #ccc;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px
+}
+
+.bioCard .title{
+    margin: auto;
+    width: min-content;
+    position: relative;
+}
+
+.title{
+    font-size: 45px;
+}
+
+.ava img{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+.bioList ul {
+    list-style-type: none;
+    padding: 0;
+    /* border: 1px solid #ddd; */
+}
+
+.bioList ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    width: fit-content;
+}
+
+.bioList ul li:last-child {
+    border-bottom: none
+}
+
+.content {
+    padding-left: 50px;
+    padding-top: 17px;
+    width: 500px;
+    height: 300px;
+    /* border: 4px solid #ccc; */
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-top: 20px;
+
+}
+.card{
+    width: 200px;
+    border: 4px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.first {
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    height: min-content;
+}
+
+.contact ul li{
+    padding: 5px 5px 0px 0px;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+}
+
+.contact ul li:last-child {
+    border-right: none
+}
+
+.contact ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.contact img {
+    width: 40px;
+}
+
+.bottom span{
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .cards {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    body{
+        /* background-color: blueviolet; */
+    }
+
+}

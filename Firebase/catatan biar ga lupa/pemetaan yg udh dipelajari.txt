@@ -1,0 +1,4 @@
+Cara hosting
+Cara crud firebase lewat file html
+Function
+    routing

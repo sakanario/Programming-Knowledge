@@ -1,0 +1,17 @@
+Operasi Dasar
+
+1)konstanta dibagi konstanta hasilnya ga bisa koma
+
+misal 10/100 = 0
+7/5 = 1
+
+sama dengan pembagian bertipe integer
+
+tapi jika 
+
+x = 7;
+y = x/5;
+
+maka y = 1.4
+
+2) angka -= 10 artinya angka = angka -10;

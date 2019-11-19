@@ -1,0 +1,7 @@
+UPLOAD FOTO
+
+<img src="\images\{{$course->filename}}" class="img1" alt="">
+
+link src itu rootnya dari public_html kalo di cpanel, meskipun folder larvelnya ada di mana tau.
+
+tapi saat di localhost, rootnya adalah folder "public" di dalam folder laravel.

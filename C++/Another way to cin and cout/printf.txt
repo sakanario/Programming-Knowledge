@@ -1,0 +1,29 @@
+#include <stdio.h> 
+1. printf()
+	a. printf("tulis sesuatu disini dan akan diprint oleh sistem")
+
+ 	printf("%d", i); 
+	untuk memprint isi variable i.
+    
+   	printf("%s", i);
+	untuk memprint isi variable i yang berupa sting
+	note : %s digunakan untuk menspesifikan data yang print adalah string
+
+	printf("Jumlah karakter : %d",printf("%s", i));
+	untuk memprint isi dari variable i yang berupa string dan memprint banyak karakter dalam variable tersebut
+
+	b. printf("%d ", arr[i]); 
+	akan memprint isi element arr[i]
+	note : %d digunakan untuk menspesifikan data yang print adalah desimal
+
+	c. printf("a = %i, b = %i, c = %i", a, b, c); 
+	note : %i digunakan untuk menspesifikan data yang print adalah integer
+	bila ada 3 variabel yang mau diprint, setiap variable harus dispesifikan
+
+	
+	
+KESIMPULAN : printf("untuk menspesifikkan tipe data", untuk menunjuk variable).
+
+Question : kenapa pakai printf dan scanf bukannya cout atau cin?
+karena printf dan scanf dapat menghitung jumlah karakter data sring
+

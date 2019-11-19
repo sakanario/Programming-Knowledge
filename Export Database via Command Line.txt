@@ -1,0 +1,9 @@
+# mysqldump -u root -ptmppassword sugarcrm accounts_contacts > /tmp/sugarcrm_accounts_contacts.sql
+# mysqldump -u root -p laravel53 Blogs > Blog.sql	
+
+  
+mysqldump -u root -p ravel courses > courses.sql
+note : laungsung copas gaperlu masuk ke mariaDB dulu
+filenya akan ada di folder dimana buka cmd	  
+	  
+# mysqldump -u root -p [root_password] [database_name] > dumpfilename.sql

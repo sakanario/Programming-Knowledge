@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<title>Method</title>
+	<script src = "https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src = "main.js"></script>
+	<style>
+	  .one{
+	    color: red;
+	  }
+	  .two{
+	    font-size:24px;
+	  }
+	  .three{
+	    text-decoration: underline;
+	  }
+	</style>
+	
+  </head>
+  <body>
+	<div id = "app">
+	  {{ title }}
+	  <br>
+	  <a v-bind:href="url">Click Buat Buka Youtube</a>
+	  
+	  <!--Mengambil array classes yg berisi one two three
+	  dimana seharusnya penulisan normal adalah
+	  <p class = "one" "two" "three"-->
+	  <p :class="classes">Paragraf dengan 3 style</p>
+	</div>
+	<script src="app.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

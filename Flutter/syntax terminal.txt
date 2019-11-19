@@ -1,0 +1,5 @@
+flutter format <filename>
+//buat ngerapihin indent atau tab
+
+flutter run --profile
+//buat ngerun yang lebih smooth kaya app udh release

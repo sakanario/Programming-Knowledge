@@ -1,0 +1,6 @@
+class pake .
+id pake #
+
+install vs code
+install npm 
+install node 

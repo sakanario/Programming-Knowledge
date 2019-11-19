@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <a href="" onclick="pindahin();eventPreventDefault();" class="link" id="tadaaa">Coba ambil id link ini</a> -->
+
+    <button onclick="pindahin();" class="link" id="tadaaa">Coba ambil id link ini</button>
+    <form class="form" action="">
+        <input type="text" value="0" name="category">
+        <input type="text" value="1" name="category">
+        <input type="text" value="2" name="category">
+    </form>
+
+    <button onclick="pindahinToInput('Satria Laksana Rio');" class="link" id="tadaaa">mangga</button>
+</body>
+</html>
+
+<script>
+    function pindahin() {
+        var apaya = $(".link").attr("id");
+        $(".form").attr("action", "/quiz/"+apaya);
+    }
+
+    function pindahinToInput(data) {
+        var temp = data.split(' ');
+        console.log(temp);
+        
+        $("[name='category']").eq(0).attr("value", temp[0])
+        $("[name='category']").eq(1).attr("value", temp[1])
+        $("[name='category']").eq(2).attr("value", temp[2])
+
+    }
+
+
+    var kalimat = "Satria Laksana Rio";
+    var kata = kalimat.split(' ');
+    console.log(kata);
+    
+</script>

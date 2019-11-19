@@ -1,0 +1,16 @@
+i=0;
+i<5 maka mengulang 5 kali
+i<=5 maka mengulang 6 kali
+
+i=1;
+i<5 maka mengulang 4 kali
+i<=5 maka mengulang 5 kali
+
+
+kesamaan:
+i=1;
+i<=5 maka mengulang 5 kali
+i=0;
+i<5 maka mengulang 5 kali
+
+

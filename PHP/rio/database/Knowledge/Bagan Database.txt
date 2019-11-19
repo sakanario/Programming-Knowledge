@@ -1,0 +1,8 @@
+Sekolah(Database) -> murid(table) -> id,nama,umur(structure) -> 1,Satria,19(data)
+
+note : query ga mesti pake kapital
+
+Primary Key : data yang ga boleh sama
+
+jika form actionnya ke suatu link, maka baris code php yang ada di halaman itu sendiri akan diabaikan
+atau lebih dahulu pergi ke halaman yang baru.

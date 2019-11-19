@@ -1,0 +1,2 @@
+1) Element array yang tidak di declare dapat di akses, 
+tapi value nya sering kali bukan 0, bisa berapapun, semau sistem

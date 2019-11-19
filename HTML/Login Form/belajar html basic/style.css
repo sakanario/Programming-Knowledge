@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+#content {
+    width: 50%;
+    border: 5px solid gray;
+    margin: auto;
+}
+
+input[type=text]{
+
+}
+
+input[type=text], input[type=password], input[type=submit]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.container {
+    padding : 10px;helikopter
+}
+
+.imgContainer{
+    text-align: center;
+}
+.gambar{
+    margin: 15px;
+    width: 30%;
+    border-radius: 50%;
+}
+
